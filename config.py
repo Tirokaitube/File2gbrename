@@ -116,7 +116,7 @@ class Txt(object):
 
 For Example :-
 
-<code>By: @TechifyBots</code>
+<code>By: @KGN_BOT_Z</code>
 
 💬 For Help Contact @KGN_BOT_Z
 """
