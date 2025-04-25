@@ -9,18 +9,18 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","rename2gb")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","tirokaitube")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://tirokaitube:ymDe3VLWXQ05JazI@cluster0.tktl52k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://i.ibb.co/Ld7ZrmwL/anime-character-traveling.jpg")
+    START_PIC   = os.environ.get("START_PIC", "https://i.ibb.co/PvHsTVXC/x.jpg")
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
 
     # channels logs
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "Anime_Lumino") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002568229104"))
-    BIN_CHANNEL = int(os.environ.get("BIN_CHANNEL", ""))
+    BIN_CHANNEL = int(os.environ.get("BIN_CHANNEL", "-1002568229104"))
 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
@@ -38,7 +38,7 @@ class Txt(object):
 <blockquote>𝘕𝘰𝘵𝘦 : 𝘙𝘦𝘯𝘢𝘮𝘪𝘯𝘨 𝘖𝘧 𝘈𝘥𝘶𝘭𝘵 𝘊𝘰𝘯𝘵𝘦𝘯𝘵 𝘐𝘴 𝘚𝘵𝘳𝘪𝘤𝘵𝘭𝘺 𝘗𝘳𝘰𝘩𝘪𝘣𝘪𝘵𝘦𝘥. 𝘐𝘧 𝘠𝘰𝘶 𝘞𝘪𝘭𝘭 𝘋𝘰 𝘠𝘰𝘶 𝘞𝘪𝘭𝘭 𝘎𝘦𝘵 𝘗𝘦𝘳𝘮𝘢𝘯𝘦𝘯𝘵 𝘉𝘢𝘯.</blockquote>"""
 
     ABOUT_TXT = """
-<b>❍ ᴍʏ ɴᴀᴍᴇ : <a href='https://t.me/KGN_FILE_RENAME_BOT'>ғɪʟᴇ ʀᴇɴᴀᴍᴇ ʙᴏᴛ</a>
+<b>❍ ᴍʏ ɴᴀᴍᴇ : <a href='https://t.me/V2_File_Renamer_bot'>ғɪʟᴇ ʀᴇɴᴀᴍᴇ ʙᴏᴛ</a>
 ❍ ʜᴏsᴛᴇᴅ ᴏɴ : ʀᴇɴᴅᴇʀ
 ❍ ᴅᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ
 ❍ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 𝟹
@@ -81,7 +81,7 @@ class Txt(object):
 ➲ /see_prefix: ᴛᴏ ᴠɪᴇᴡ ʏᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴘʀᴇꜰɪx.
 ➲ /del_prefix: ᴛᴏ ᴅᴇʟᴇᴛᴇ ʏᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴘʀᴇꜰɪx.
 
-» ᴇx: `/set_prefix @KGN_BOTZ`
+» ᴇx: `/set_prefix @Anime_Lumino`
 """
 
     SUFFIX = """<b>» <u>ᴛᴏ ꜱᴇᴛ ᴄᴜꜱᴛᴏᴍ sᴜꜰꜰɪx</u></b>
@@ -90,7 +90,7 @@ class Txt(object):
 ➲ /see_suffix: ᴛᴏ ᴠɪᴇᴡ ʏᴏᴜʀ ᴄᴜꜱᴛᴏᴍ sᴜꜰꜰɪx.
 ➲ /del_suffix: ᴛᴏ ᴅᴇʟᴇᴛᴇ ʏᴏᴜʀ ᴄᴜꜱᴛᴏᴍ sᴜꜰꜰɪx.
 
-» ᴇx: `/set_suffix @KGN_BOTZ`
+» ᴇx: `/set_suffix @Anime_Lumino`
 """
 
     PROGRESS_BAR = """\n
@@ -107,14 +107,14 @@ class Txt(object):
 
 ❣️ 𝐷𝑜𝑛𝑎𝑡𝑖𝑜𝑛𝑠 𝑎𝑟𝑒 𝑟𝑒𝑎𝑙𝑙𝑦 𝑎𝑝𝑝𝑟𝑒𝑐𝑖𝑎𝑡𝑒𝑑 𝑖𝑡 ℎ𝑒𝑙𝑝𝑠 𝑖𝑛 𝑏𝑜𝑡 𝑑𝑒𝑣𝑒𝑙𝑜𝑝𝑚𝑒𝑛𝑡
 
-💖 𝐔𝐏𝐈 𝐈𝐃 : `aquib01@upi`
+💖 𝐔𝐏𝐈 𝐈𝐃 : `8160383095@fam`
 
 💗 𝐐𝐑 𝐂𝐨𝐝𝐞 : <b><a href='https://aquib385.github.io/donete'>𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾</a></b>
 """
 
     SEND_METADATA = """🖼️ 𝗛𝗼𝘄 𝗧𝗼 𝗦𝗲𝘁 𝗖𝘂𝘀𝘁𝗼𝗺 𝗠𝗲𝘁𝗮𝗱𝗮𝘁𝗮
 
-For Example :- <code>By: @KGN_BOTZ</code>
+For Example :- <code>By: @Anime_Lumino</code>
 
 💬 For Help Contact @ExE_AQUIB
 """
