@@ -19,7 +19,7 @@ class Config(object):
 
     # channels logs
     FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002568229104"))
     BIN_CHANNEL = int(os.environ.get("BIN_CHANNEL", ""))
 
     # wes response configuration     
