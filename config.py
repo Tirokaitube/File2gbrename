@@ -10,7 +10,7 @@ class Config(object):
    
     # database config
     DB_NAME = os.environ.get("DB_NAME","tirokaitube")     
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://tirokaitube:ymDe3VLWXQ05JazI@cluster0.tktl52k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_URL  = os.environ.get("DB_URL","")
 
     # other configs
     BOT_UPTIME  = time.time()
