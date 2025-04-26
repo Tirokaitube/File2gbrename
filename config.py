@@ -42,7 +42,7 @@ class Txt(object):
 ❍ ʜᴏsᴛᴇᴅ ᴏɴ : ʀᴇɴᴅᴇʀ
 ❍ ᴅᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ
 ❍ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 𝟹
-❍ ᴍʏ ᴄʀᴇᴀᴛᴏʀ : <a href='https://telegram.me/I_am_Babi_villain'>ᴀǫᴜɪʙ</a>
+❍ ᴍʏ ᴄʀᴇᴀᴛᴏʀ : <a href='https://telegram.me/I_am_Babi_villain'>I am Babi villain</a>
 
 ➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ꜰᴏʀ ɢᴇᴛᴛɪɴɢ ᴍᴏʀᴇ ɪɴꜰᴏ ᴀʙᴏᴜᴛ ᴍᴇ.</b>
 """
@@ -109,12 +109,12 @@ class Txt(object):
 
 💖 𝐔𝐏𝐈 𝐈𝐃 : `8160383095@fam`
 
-💗 𝐐𝐑 𝐂𝐨𝐝𝐞 : <b><a href='https://aquib385.github.io/donete'>𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾</a></b>
+💗 𝐐𝐑 𝐂𝐨𝐝𝐞 : <b><a href='https://8160383095@fam.github.io/donete'>𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾</a></b>
 """
 
     SEND_METADATA = """🖼️ 𝗛𝗼𝘄 𝗧𝗼 𝗦𝗲𝘁 𝗖𝘂𝘀𝘁𝗼𝗺 𝗠𝗲𝘁𝗮𝗱𝗮𝘁𝗮
 
-For Example :- <code>By: @Anime_Lumino</code>
+For Example :- <code>By: I am Babi villain</code>
 
 💬 For Help Contact @I_am_Babi_villain
 """
