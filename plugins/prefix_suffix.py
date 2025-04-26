@@ -6,7 +6,7 @@ from helper.database import jishubotz
 async def add_caption(client, message):
 
     if len(message.command) == 1:
-        return await message.reply_text("**__Give The Prefix__\n\nExample:- `/set_prefix @KGN_BOT_Z`**")
+        return await message.reply_text("**__Give The Prefix__\n\nExample:- `/set_prefix @Anime_Lumino`**")
     prefix = message.text.split(" ", 1)[1]
     JishuDeveloper = await message.reply_text("Please Wait ...")
     await jishubotz.set_prefix(message.from_user.id, prefix)
@@ -21,7 +21,7 @@ async def delete_prefix(client, message):
     if not prefix:
         return await JishuDeveloper.edit("**You Don't Have Any Prefix ❌**")
     await jishubotz.set_prefix(message.from_user.id, None)
-    await JishuDeveloper.edit("**Prefix Deleted Successfully @KGN_BOT_Z 🗑️**")
+    await JishuDeveloper.edit("**Prefix Deleted Successfully @Anime_Lumino 🗑️**")
 
 
 @Client.on_message(filters.private & filters.command('see_prefix'))
@@ -40,7 +40,7 @@ async def see_caption(client, message):
 async def add_csuffix(client, message):
 
     if len(message.command) == 1:
-        return await message.reply_text("**__Give The Suffix__\n\nExample:- `/set_suffix @KGN_BOT_Z`**")
+        return await message.reply_text("**__Give The Suffix__\n\nExample:- `/set_suffix @Anime_Lumino`**")
     suffix = message.text.split(" ", 1)[1]
     JishuDeveloper = await message.reply_text("Please Wait ...")
     await jishubotz.set_suffix(message.from_user.id, suffix)
@@ -55,7 +55,7 @@ async def delete_suffix(client, message):
     if not suffix:
         return await JishuDeveloper.edit("**You Don't Have Any Suffix ❌**")
     await jishubotz.set_suffix(message.from_user.id, None)
-    await JishuDeveloper.edit("**Suffix Deleted Successfully @KGN_BOT_Z 🗑️**")
+    await JishuDeveloper.edit("**Suffix Deleted Successfully @Anime_Lumino 🗑️**")
 
 
 @Client.on_message(filters.private & filters.command('see_suffix'))
